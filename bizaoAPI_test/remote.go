@@ -1,7 +1,6 @@
 package remote
 
 import (
-	"net"
 	"net/http"
 	"time"
 )
@@ -35,20 +34,10 @@ type (
 
 //NewRemote create a client to do a request to a specifique URL
 func NewRemote(config Config) *Remote {
-	client := &http.Client{
-		CheckRedirect: config.CheckRedirect,
-		Jar:           config.Jar,
-		Timeout:       10 * time.Second,
-		Transport: &http.Transport{
-			DialContext: (&net.Dialer{
-				Timeout: 5 * time.Second,
-			}).Dial,
-			TLSHandshakeTimeout: 5 * time.Second,
-		},
-	}
+	client := &http.DefaultClient
 
 	return &Remote{
-		client: client,
+		client: *client,
 	}
 }
 
