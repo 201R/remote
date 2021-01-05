@@ -1,4 +1,4 @@
-# Remote [![Build Status](https://travis-ci.org/sirupsen/logrus.svg?branch=master)](https://201r.com) 
+# Remote [![Go Reference](https://pkg.go.dev/badge/github.com/201R/remote.svg)](https://pkg.go.dev/github.com/201R/remote)
 
 Remote is a structure pawerfull Golang http api that allow us to make some request on avery api or an URL
 if you want a well organized code, you'll love remote.
