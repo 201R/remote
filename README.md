@@ -16,7 +16,7 @@ $ go get -u github.com/201RichK/remote
 2. Import it in your code:
 
 ```go
-import "github.com/201RichK/remote"
+import "github.com/201R/remote"
 ```
 3. Quick start
  
@@ -29,7 +29,7 @@ $ cat example.go
 package main
 
 import (
-    "github.com/201RichK/remote"
+    "github.com/201R/remote"
     "fmt"
 )
 
