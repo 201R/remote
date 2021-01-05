@@ -1,5 +1,3 @@
-module github.com/201RichK/remote
+module github.com/201R/remote
 
 go 1.15
-
-require github.com/sirupsen/logrus v1.7.0 // indirect
