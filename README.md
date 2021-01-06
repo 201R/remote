@@ -1,8 +1,7 @@
 # Remote [![Go Reference](https://pkg.go.dev/badge/github.com/201R/remote.svg)](https://pkg.go.dev/github.com/201R/remote) [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
  
-Remote is a structure pawerfull Golang http api that allow us to make some request on avery api or an URL
-if you want a well organized code, you'll love remote.
+Remote is a Golang http request package to make request like POST GET PUT ... on a domain or an API 
 
 ## Installation
 
